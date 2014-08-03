@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme1" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp" />
+
+    <Button
+        android:id="@+id/currentMonth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/calendar_bar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/nextMonth"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/currentMonth"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/leftarrow"
+        android:paddingTop="23dp"
+        android:paddingRight="10dp" />
+
+    <LinearLayout android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp">
+      
+        </LinearLayout>
+    <ImageView
+        android:id="@+id/prevMonth"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/currentMonth"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/rightarrow"
+         android:paddingTop="23dp"
+        android:paddingLeft="10dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginTop="250dp" >
+    </ListView>
+    
+    <TextView 
+	   android:id="@+id/noevent"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="No Events Found"
+	  android:layout_marginTop="250dp"
+	  android:layout_marginLeft="100dp"
+	  android:gravity="center_vertical"
+	  style="@style/subheadingStyles"
+	  android:visibility="gone"/>
+    <LinearLayout 
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="230dp">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Show All"
+                android:background="@drawable/btn_blackbg"
+                style="@style/buttonText"  />      
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/headingStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="EVENT SCHEDULE" />
+
+</RelativeLayout>

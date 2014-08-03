@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme1"
+    android:orientation="vertical"
+    android:padding="10dip"
+     >
+
+    <TextView
+        style="@style/headingStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="160dp"
+        android:text="CONTACT US"
+        android:textSize="28sp" />
+
+    <TextView
+        style="@style/textViewStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"  android:textSize="22sp" 
+        android:layout_marginTop="10dp"
+        android:text="If you have questions about your points or about the program,send us an email at:" />
+
+    <TextView
+        android:id="@+id/txtcemail"
+        style="@style/linkStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:layout_marginLeft="40dip"
+        android:autoLink="email" 
+        android:gravity="center"
+        android:textColorLink="#F70A0A"
+       
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/testicon"
+        android:layout_width="235dp"
+        android:layout_height="50dp"
+        android:src="@drawable/sdf"
+        android:visibility="invisible" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         android:gravity="center"
+         android:layout_marginTop="240dp">
+
+        <ImageView
+            android:id="@+id/imgAddcont"
+            android:layout_width="320dip"
+            android:layout_height="90dip"
+            
+           
+            android:src="@drawable/lastone" />
+
+    </TableRow>
+
+</LinearLayout>

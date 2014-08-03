@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="CustomWindowTitleBackground" parent="android:Theme">
+		<item name="android:background">@drawable/titlebg</item>
+    </style>
+
+   <style name="customTheme" parent="android:Theme">
+    	<item name="android:editTextStyle">@style/editTextStyle</item>
+   </style> 
+
+   <style name="registrationEditTextStyle" parent="@android:style/Widget.EditText">
+	   	<item name="android:background">@drawable/et_new</item>
+	   	<item name="android:textColor">#FFFFFF</item>
+	   	<item name="android:focusable">true</item>
+	 	<item name="android:focusableInTouchMode">true</item>
+	 	<item name="android:clickable">true</item>
+	 	<item name="android:gravity">center_vertical</item>
+	 	<item name="android:paddingLeft">20dp</item>
+	 	
+   </style>
+   
+   <style name="SpinnerItem" parent="@android:style/Widget.DropDownItem.Spinner">
+    <item name="android:textColor">#FF0000</item>
+     <item name="android:typeface">monospace</item>
+</style>
+   <style name="editTextStyle" parent="@android:style/Widget.EditText">
+	    <item name="android:background">@drawable/edittext_style</item>
+	    <item name="android:focusable">true</item>
+	 	<item name="android:focusableInTouchMode">true</item>
+	 	<item name="android:clickable">true</item>
+	 	<item name="android:gravity">center_vertical</item>
+    </style>
+	<style name="titleStyle" parent="android:Theme">
+	   <item name="android:textColor">#FFFFFF</item>
+	   <item name="android:textSize">20sp</item>
+	   <item name="android:typeface">monospace</item>
+	   <item name="android:textStyle">bold</item>
+	   <item name="android:shadowColor">#000000</item>
+	   <item name="android:shadowDx">1</item>
+	   <item name="android:shadowDy">1</item>
+	   <item name="android:shadowRadius">2</item>
+	</style>
+   
+   <style name="tabWidgetStyle" parent="android:Theme">
+   <item name="android:textColor">#FFFAFA</item>
+   <item name="android:textSize">26sp</item>
+   <item name="android:typeface">monospace</item>
+  <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+
+   </style>
+   
+
+   <style name="buttonText" parent="android:Theme">
+    <item name="android:layout_width">102dp</item>
+    <item name="android:layout_height">110dp</item>
+    <item name="android:textColor">#FFFFFF</item>
+ <item name="android:textSize">18sp</item>
+ <item name="android:textStyle">bold</item>
+  
+   </style>
+   
+    <style name="buttonTextSmallScreen" parent="android:Theme">
+    <item name="android:layout_width">217dp</item>
+    <item name="android:layout_height">31dp</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:layout_margin">2dp</item>
+    <item name="android:textSize">16sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">1</item></style>
+    
+    <style name="buttonTextLargeScreen" parent="android:Theme">
+    <item name="android:layout_width">350dp</item>
+    <item name="android:layout_height">70dp</item>
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:layout_margin">5dp</item>
+    <item name="android:textSize">30sp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">4</item></style>
+    
+   <style name="linkStyles">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">16sp</item>
+     <item name="android:typeface">monospace</item>
+   <item name="android:clickable">true</item>
+   <item name="android:textStyle">bold</item>
+   </style>
+   
+    <style name="linkLargeStyles">
+    <item name="android:textColor">#0000FF</item>
+    <item name="android:textSize">25sp</item>
+     <item name="android:typeface">sans</item>
+   
+   </style>
+   
+   <style name="textViewStyles" parent="android:Theme">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">15sp</item>
+     <item name="android:typeface">sans</item>
+     <item name="android:textStyle">bold</item>
+   </style>
+   
+   <style name="textViewLargeStyles" parent="android:Theme">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">25sp</item>
+     <item name="android:typeface">sans</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+   <style name="specialTextViewStyles" parent="android:Theme">
+    <item name="android:textColor">#C63829</item>
+    <item name="android:textSize">15sp</item>
+     <item name="android:typeface">sans</item>
+     <item name="android:textStyle">bold</item>
+   </style>
+   
+   <style name="specialTextViewLargeStyles" parent="android:Theme">
+    <item name="android:textColor">#C63829</item>
+    <item name="android:textSize">25sp</item>
+     <item name="android:typeface">sans</item>
+     <item name="android:textStyle">bold</item>
+   </style>
+   
+   <style name="labelViewStyles" parent="android:Theme">
+    <item name="android:textColor">#fce4de</item>
+    <item name="android:textSize">13sp</item>
+     <item name="android:typeface">monospace</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   <style name="labelViewLargeStyles" parent="android:Theme">
+    <item name="android:textColor">#736F6E</item>
+    <item name="android:textSize">23sp</item>
+     <item name="android:typeface">monospace</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+   <style name="splashStyles" parent="android:Theme">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">17sp</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+	   <style name="headingStyles" parent="android:Theme">
+		     <item name="android:textColor">#FFFFFF</item>
+		     <item name="android:textSize">22sp</item>
+		     <item name="android:textStyle">bold</item>
+		     <item name="android:gravity">center</item>
+	   </style>
+   
+	   <style name="headingLargeStyles" parent="android:Theme">
+		    <item name="android:textColor">#FFFFFF</item>
+		    <item name="android:textSize">40sp</item>
+		    <item name="android:textStyle">bold</item>
+
+	   </style>
+   
+    <style name="subheadingStyles" parent="android:Theme">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">17sp</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+    <style name="sharingTextStyles" parent="android:Theme">
+    <item name="android:textColor">#FFFFFF</item>
+    <item name="android:textSize">17sp</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+   <style name="barcodeStyles" parent="android:Theme">
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">125sp</item>
+     <item name="android:textStyle">bold</item>
+   </style>
+   
+   <style name="barcodeLargeStyles" parent="android:Theme">
+    <item name="android:textColor">#000000</item>
+    <item name="android:textSize">200sp</item>
+     <item name="android:textStyle">bold</item>
+
+   </style>
+   
+   
+   <style
+		name="calendar_event_style"
+		parent="@android:style/TextAppearance.Small">
+		<item
+			name="android:textColor">#FF6600</item>
+		<item
+			name="android:textStyle">bold
+		</item>
+		<item
+			name="android:textSize">8sp</item>
+	</style>
+   
+</resources>

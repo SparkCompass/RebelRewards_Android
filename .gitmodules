@@ -1,0 +1,3 @@
+[submodule "tcsapi"]
+	path = tcsapi
+	url = https://github.com/SparkCompass/TCSAPI_AS_MODULE.git

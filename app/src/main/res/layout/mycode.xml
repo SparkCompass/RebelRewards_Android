@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingTop="100dp"
+  android:background="@drawable/theme1" >
+   
+   
+	 <ScrollView  
+				  android:layout_width="match_parent"
+				  android:layout_height="match_parent">
+				  <LinearLayout
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="match_parent"
+				  android:padding="4dp"
+				  > 		  
+			  
+			  
+    <TextView 
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:text="EARN REWARDS"
+		  android:layout_marginLeft="80dp"
+		  style="@style/headingStyles"/>
+		   <LinearLayout
+				  android:orientation="vertical"
+				  android:layout_width="match_parent"
+				  android:layout_height="wrap_content"
+				  android:padding="10dp"
+				   android:background="@color/WhiteColor"
+				  > 	
+		 
+		  <TextView 
+			  android:id="@+id/txtMcBarcode"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  style="@style/barcodeStyles"
+			  android:layout_marginLeft="-17dp"
+			  android:layout_marginTop="6dip"
+			  android:layout_gravity="center_horizontal"
+			  
+		  />
+		  </LinearLayout>
+   <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+   android:text="GET CREDIT FOR ATTENDING AN EVENT"
+  style="@style/textViewStyles"
+  android:layout_gravity="center_horizontal"
+  android:layout_marginBottom="4dp"
+  android:paddingTop="10dp"
+   />
+  
+  <View android:background="#ffffff"
+  android:layout_width="wrap_content"
+  android:layout_height="3dp"
+  android:layout_marginLeft="35dp"
+  android:layout_marginRight="35dp"
+  />
+    <TextView
+    android:id="@+id/txtMcName"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+android:layout_marginTop="5dp"
+  style="@style/textViewStyles"
+
+   />
+   
+    <TextView
+    android:id="@+id/txtMcPoints"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+
+  style="@style/textViewStyles"
+
+   />
+    <TextView
+    android:id="@+id/txtMcUserId"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center_horizontal"
+
+  style="@style/textViewStyles"
+
+   />
+    <TextView 
+			  android:id="@+id/lnkMcMyHistory"
+			  android:text="@string/lnkViewMyhistory"
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:layout_gravity="center"
+			  style="@style/linkStyles"
+			  android:layout_weight="0"
+			  android:paddingTop="10dp"
+			  android:paddingBottom="10dp"/>
+    
+    
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRewrdHistory"
+        android:gravity="center"
+        android:paddingTop="10dp">
+       <ImageView
+        android:id="@+id/imgAddMycode"
+        android:layout_width="220dip"
+        android:layout_height="45dip"
+        android:src="@drawable/lastone"
+       
+        
+        /></TableRow>
+			  
+			 
+			  
+			  </LinearLayout> 
+					</ScrollView> 
+</LinearLayout>

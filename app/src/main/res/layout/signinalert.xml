@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingTop="80dp"
+  android:paddingLeft="10dp"
+   android:background="@drawable/theme1">
+
+  <TextView
+  android:id="@+id/txtSAmycode"
+  android:text="Want credit for attending Rebel Sports Events?"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/textViewStyles"
+  android:visibility="gone"
+  android:paddingBottom="10dp"
+  android:paddingTop="10dp">
+  </TextView>
+  <LinearLayout android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+  <TextView
+  android:id="@+id/lnkSAsignin"
+  android:text="@string/lnkSAsignin"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/linkStyles"
+  android:paddingTop="10dp">
+  </TextView>
+  
+   <TextView
+  android:text="  to access this page."
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/textViewStyles"
+  android:paddingTop="10dp">
+  </TextView>
+  </LinearLayout>
+  <LinearLayout android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="10dp">
+  
+   <TextView
+  android:text="No Account?  "
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  style="@style/textViewStyles">
+  </TextView>
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/lnkSAJoinnow"
+      style="@style/linkStyles"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/lnkJoin"
+      android:textColor="#F70A0A"
+      android:paddingTop="10dp" />
+    
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_marginTop="0dp"
+    android:background="@drawable/theme1">
+   <TextView android:id="@+id/lnkLogOut"
+		      style="@style/linkStyles" 
+		      android:layout_width="wrap_content"
+		      android:layout_height="wrap_content" 
+		      android:gravity="left"
+		      android:text="@string/lnkLogout" 
+		      android:visibility="invisible" 
+		      android:layout_gravity="right"/> 
+ <TableLayout 
+     android:layout_width="fill_parent" 
+	 android:layout_height="wrap_content" 
+	 android:paddingTop="8dp" 
+	 android:paddingLeft="10dp" 
+	 android:paddingBottom="2dp" 
+	 android:layout_weight="0"
+	 android:layout_marginTop="35dp">
+	  
+	 <TableRow android:padding="1dp"
+	            >
+		  <TextView android:id="@+id/txtHFullName" 
+			  style="@style/splashStyles" 
+			  android:layout_width="wrap_content"
+			  android:layout_height="wrap_content"
+			  android:paddingTop="17dp"
+			  android:textSize="15dp"/> 
+		  <TextView android:id="@+id/txtHUserId" 
+			  style="@style/splashStyles" 
+			  android:layout_width="wrap_content" 
+			  android:layout_height="wrap_content"  
+			  android:paddingRight="5dp"
+			  android:textSize="15dp"/> 
+		<TextView 
+              android:id="@+id/txtLPoints"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              style="@style/splashStyles"
+              android:paddingTop="17dp"
+              android:layout_gravity="right"
+              android:textSize="15dp"/>
+		 
+		  </TableRow>
+		  </TableLayout>
+		  
+ 
+ <ScrollView 
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">	
+          
+     <LinearLayout android:orientation="vertical"
+         android:layout_width="match_parent"
+          android:layout_height="match_parent" android:layout_gravity="center_horizontal">
+		
+         <TextView
+        android:id="@+id/display"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" /> 
+         
+         
+  <TableLayout android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:stretchColumns="*"   android:layout_gravity="center_horizontal"
+      android:background="@color/tableborder" 
+      android:layout_margin="5dp">
+<TableRow android:layout_margin="1dp"  >
+<ImageButton android:id="@+id/imgbtn1"  android:src="@drawable/sign_in" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp" > </ImageButton>
+<ImageButton android:id="@+id/imgbtn10"  android:src="@drawable/profileicon" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp" android:visibility="gone"></ImageButton>
+<ImageButton android:id="@+id/imgbtn2"  android:src="@drawable/eventsicon" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp"></ImageButton>
+<ImageButton android:id="@+id/imgbtn3"  android:src="@drawable/leaderboardicon" android:background="@drawable/button" style="@style/buttonText" ></ImageButton>
+</TableRow>
+
+<TableRow  android:layout_margin="1dp" 
+    android:layout_gravity="center" >
+<ImageButton android:id="@+id/imgbtn4"  android:src="@drawable/rewardsicon" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp"></ImageButton>
+<ImageButton android:id="@+id/imgbtn5"  android:src="@drawable/mycodeicon" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp"></ImageButton>
+<ImageButton android:id="@+id/imgbtn6"  android:src="@drawable/rulesicon" android:background="@drawable/button" style="@style/buttonText" ></ImageButton>
+
+</TableRow>
+
+<TableRow  android:layout_margin="1dp" 
+    android:layout_gravity="center" >
+<ImageButton android:id="@+id/imgbtn7"  android:src="@drawable/socialicon1" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp"></ImageButton>
+<ImageButton android:id="@+id/imgbtn8"  android:src="@drawable/contactusicon1" android:background="@drawable/button" style="@style/buttonText" android:layout_marginRight="1dp"></ImageButton>
+<ImageButton android:id="@+id/imgbtn9"  android:src="@drawable/exiticon1" android:background="@drawable/button" style="@style/buttonText"></ImageButton>
+<ImageButton android:id="@+id/logout"  android:src="@drawable/signouticon" android:background="@drawable/button" style="@style/buttonText" android:visibility="gone"></ImageButton>
+</TableRow></TableLayout>
+
+<TableLayout android:layout_margin="1dp" android:layout_width="fill_parent" 
+	 android:layout_height="wrap_content" >
+<TableRow android:layout_width="fill_parent" 
+	   android:layout_height="wrap_content"
+          android:paddingTop="10dp"
+          android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgaddHome"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:paddingTop="1dp"
+        android:src="@drawable/lastone" />
+
+</TableRow>
+</TableLayout>
+
+</LinearLayout>
+</ScrollView>
+- <!-- <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+- <TableRow>
+  <ImageView android:id="@+id/myimg" android:layout_width="234dp" android:layout_height="wrap_content"  android:layout_centerHorizontal="true" android:background="@drawable/logo" android:layout_marginTop="2dp" android:layout_weight="1" android:visibility="gone" /> 
+  </TableRow>
+  </TableLayout> -->
+
+ 
+</LinearLayout>
+
+
+

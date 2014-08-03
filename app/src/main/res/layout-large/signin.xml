@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical"
+          android:fillViewport="true"
+          >
+          
+  <TableLayout
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/theme1" >
+    
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="27sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="27sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In to access your profile"
+            android:textColor="#ffffff"
+            android:textSize="28sp" 
+            android:gravity="center"/>
+
+	</TableRow>
+	<TableRow android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+		<TextView 
+		android:id="@+id/txtLErrormsg"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="top"
+		android:visibility="gone"
+		android:gravity="center"
+		android:paddingTop="15dp"
+		style="@style/specialTextViewStyles"/>
+	</TableRow>
+
+	<TableRow 
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:layout_marginTop="5dp">
+	<LinearLayout 
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:orientation="vertical"
+		android:paddingTop="10dp">
+		
+			<TextView android:text="Email:"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			style="@style/textViewStyles"  android:textSize="24sp"/>
+		
+			<EditText
+			    android:id="@+id/edtEmailId"
+			    style="@style/registrationEditTextStyle"
+			    android:layout_width="472dp"  android:textSize="24sp"
+			    android:layout_height="40dp"
+			    android:inputType="textEmailAddress"
+			    android:hint="Enter Your Email" />
+		
+		</LinearLayout>
+	
+	</TableRow>
+
+
+
+
+<TableRow 
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="5dip">
+
+<LinearLayout 
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:orientation="vertical">
+
+<TextView
+    style="@style/textViewStyles"
+    android:layout_width="316dp"
+    android:layout_height="wrap_content"
+    android:text="Password:"   android:textSize="24sp"/>
+
+<EditText
+android:id="@+id/edtPwd" 
+android:layout_height="40dp"
+android:layout_width="fill_parent"
+style="@style/registrationEditTextStyle"
+android:password="true"  android:textSize="24sp"
+android:hint="Enter Your Password"/>
+
+</LinearLayout>
+
+</TableRow>
+
+
+<TableRow 
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:layout_marginTop="10dip">
+
+<LinearLayout 
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:orientation="horizontal">
+
+<CheckBox 
+android:id="@+id/chkRemember"
+android:text="Remember Me"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+style="@style/textViewStyles"
+android:layout_marginLeft="75dp"   android:textSize="24sp"/>
+
+<Button 
+android:id="@+id/btnLogin"
+android:layout_height="60dp"
+android:layout_width="120dp"
+android:text="Log In"
+android:layout_marginLeft="50dip"
+android:textSize="24sp"
+android:background="@drawable/btn_blackbg"
+android:textColor="#FFFFFF"
+android:textStyle="bold"
+/>
+
+</LinearLayout>
+
+
+</TableRow>
+
+<TableRow 
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="10dip">
+<TextView 
+android:id="@+id/lnkforgotPwd"
+android:text="@string/lnkForgetpwd"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+style="@style/linkStyles" android:textSize="24sp"
+android:gravity="center"/>
+
+</TableRow>
+<TableRow 
+android:id="@+id/tabForgotpwd"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:visibility="gone">
+<LinearLayout 
+android:layout_height="wrap_content"
+android:layout_width="fill_parent"
+android:orientation="vertical">
+<EditText 
+  android:id="@+id/edtFPMailid"
+  android:layout_width="fill_parent"
+  android:layout_height="37dp"
+  android:hint="Enter Email" android:textSize="24sp"
+  android:inputType="textEmailAddress"
+  style="@style/registrationEditTextStyle"
+  android:layout_marginTop="5dp"
+  />
+  <Button
+  android:id="@+id/btnFPSubmit"
+  android:layout_width="100dip"
+  android:layout_height="35dp"
+  android:text="Submit"    android:textSize="24sp"
+  style="@style/buttonText"
+  android:layout_marginTop="10dp"
+  android:background="@drawable/btn_blackbg"
+  android:layout_gravity="center_horizontal">
+  </Button>
+  </LinearLayout>
+  </TableRow>
+
+<TableRow 
+android:id="@+id/tabLJoinnow"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:layout_marginTop="15dip">
+<LinearLayout 
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:orientation="horizontal"
+android:gravity="center">
+<TextView 
+android:id="@+id/noAccount"
+android:text="No Account?"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:textSize="24dip"
+android:textStyle="bold"
+android:textColor="#ffffff"
+/>
+<TextView 
+android:id="@+id/lnkjoinNow"
+android:text="@string/lnkJoin"
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+style="@style/linkStyles"
+android:layout_marginLeft="3dip"  android:textSize="24sp"
+/>
+</LinearLayout>
+</TableRow>
+
+
+
+
+
+<TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="260dip"
+    android:layout_height="60dip" 
+    android:paddingTop="30dip">
+
+<ImageView
+        android:id="@+id/imgAddLogin"
+        android:layout_width="250dip"
+        android:layout_height="60dip"
+        android:src="@drawable/lastone"
+        
+        
+        />
+
+</TableRow>
+
+
+</TableLayout>
+
+</ScrollView>
+
+

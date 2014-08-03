@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="CommitPrefEdits">
+        <ignore path="src\com\eis\Events.java" />
+    </issue>
+    <issue id="ShowToast" severity="ignore" />
+</lint>

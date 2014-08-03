@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme1" >
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp" />
+
+    <Button
+        android:id="@+id/currentMonth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/calendar_bar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/nextMonth"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/currentMonth"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/leftarrow"
+        android:paddingTop="23dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="75dp" />
+
+    <ImageView
+        android:id="@+id/prevMonth"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/currentMonth"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/rightarrow"
+         android:paddingTop="23dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="75dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/prevMonth"
+        android:layout_marginTop="10dp" >
+    </ListView>
+    
+    <TextView 
+	   android:id="@+id/noevent"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="No Events Found"
+	  android:layout_marginTop="350dp"
+	  android:layout_marginLeft="170dp"
+	  android:gravity="center_vertical"
+	  style="@style/subheadingStyles"
+	  android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/headingStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextMonth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="EVENT SCHEDULE" />
+
+</RelativeLayout>

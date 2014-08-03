@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rebel Rewards</string>
+    <string name="hello">Hello World, RebelSampleActivity!</string>
+    <string name="titleText">Rebel Rewards</string>
+    <string name="lnkcontactUs"><u>Contact Us</u></string>
+    <string name="lnkRules"><u>Rules</u></string>
+    <string name="lnkForgetpwd"><u>Forgot Password?</u></string>
+    <string name="lnkJoin"><u>Join now</u></string>
+    <string name="lnkYouTube">See us on <u>YouTube</u></string>
+    <string name="lnkVimeo"><u>With Us</u></string>
+    <string name="lnkfoursquare"><u>Check In</u></string>
+     <string name="lnkViewMyhistory"><u>View My History</u></string>
+     <string name="lnkShowAll"><u>Show All</u></string>
+    <string name="lnkNotifications"><u>Notification Options</u></string>
+    <string name="lnkLogout"><u>LogOut</u></string>
+    <string name="lnkSAsignin"><u>Sign In</u></string>
+    <string name="lnkERewards"><u>View Rewards</u></string>
+    <string name="lnkHwebsite">View more than your last 5 events.<u><b>Visit the Rebel Rewards website</b></u></string>
+     <string name="rank"><u>Rank</u></string>
+     <string name="name"><u>Name</u></string>
+     <string name="points"><u>Points</u></string>
+     <string name="tier"><u>Tier</u></string>
+     
+     
+     
+     <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+    
+    
+    
+    <string name="states_prompt">Select State</string>
+    <string-array name="states_array">
+               <item>State</item>  
+                <item>AL</item>
+				<item>AK</item>
+				<item>AZ</item>
+				<item>AR</item>
+				<item>CO</item>
+				<item>CA</item>
+				<item>DE</item>
+				<item>CT</item>
+				<item>GA</item>
+				<item>FL</item>
+				<item>IA</item>
+				<item>HI</item>
+<item>IL</item>
+<item>ID</item>
+<item>KS</item>
+<item>IN</item>
+<item>LA</item>
+<item>KY</item>
+<item>MD</item>
+<item>MA</item>
+<item>MI</item>
+<item>ME</item>
+<item>MO</item>
+<item>MN</item>
+<item>MT</item>
+<item>MS</item>
+<item>ND</item>
+<item>NC</item>
+<item>NH</item>
+<item>NE</item>
+<item>NM</item>
+<item>NJ</item>
+<item>NY</item>
+<item>NV</item>
+<item>OK</item>
+<item>OH</item>
+<item>PA</item>
+<item>OR</item>
+<item>SC</item>
+<item>RI</item>
+<item>TN</item>
+<item>SD</item>
+<item>UT</item>
+<item>TX</item>
+<item>VT</item>
+<item>VA</item>
+<item>WI</item>
+<item>WA</item>
+<item>WY</item>
+<item>WV</item>
+<item>GU</item>
+<item>AS</item>
+<item>PW</item>
+<item>MH</item>
+<item>VI</item>
+<item>PR</item>
+<item>DC</item>
+                               
+</string-array>             
+   
+    <string-array name="states_Values">
+                               <item>0</item>  
+                               <item>2</item>
+   							   <item>1</item>
+                               <item>4</item>
+                               <item>3</item>
+                               <item>6</item>
+                               <item>5</item>
+                               <item>8</item>
+                               <item>57</item>
+                               <item>7</item>
+                               <item>10</item>
+                               <item>9</item>
+                               <item>12</item>
+                               <item>11</item>
+                               <item>14</item>
+                               <item>13</item>
+                               <item>16</item>
+                               <item>15</item>
+                               <item>18</item>
+                               <item>17</item>
+                               <item>20</item>
+                               <item>19</item>
+                               <item>22</item>
+                               <item>21</item>
+                               <item>24</item>
+                               <item>23</item>
+                               <item>26</item>
+                               <item>25</item>
+                               <item>28</item>
+                               <item>27</item>
+                               <item>30</item>
+                               <item>29</item>
+                               <item>32</item>
+                               <item>31</item>
+                               <item>34</item>
+                               <item>33</item>
+                               <item>36</item>
+                               <item>35</item>
+                               <item>38</item>
+                               <item>37</item>
+                               <item>40</item>
+                               <item>39</item>
+                               <item>42</item>
+                               <item>41</item>
+                               <item>44</item>
+                               <item>43</item>
+                               <item>46</item>
+                               <item>45</item>
+                               <item>48</item>
+                               <item>47</item>
+                               <item>50</item>
+                               <item>49</item>
+                               
+                               
+                               <item>52</item>
+                               <item>51</item>
+                               <item>54</item>
+                               <item>53</item>
+                               <item>56</item>
+                               <item>55</item>
+                              
+    </string-array>
+    
+    <string name="rebel_prompt">Select Rebel</string>
+    <string-array name="rebel_array">
+    <item>Classification</item>
+      
+    <item>Freshman</item>
+    <item>Sophomore</item>
+    <item>Junior</item>
+    <item>Senior</item>
+    <item>Graduate Student</item>
+    <item >Other</item>
+    
+
+    </string-array>
+    
+    
+    
+    
+    
+    
+    <string-array name="rebel_values">
+    <item>0</item>
+    
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item >5</item>
+    <item >6</item>
+    
+    </string-array>
+    
+    
+    
+     <string name="mobile_prompt">Select Mobile Platform</string>
+    
+    <string-array name="mobileplatform_array">
+    <item>Select Phone Type</item>
+    <item>Android</item>
+    <item>BlackBerry - RIM</item>
+    <item>iPhone</item>
+    <item>Other</item>
+    </string-array>
+    
+    <string name="year_prompt">Select Current Year</string>
+    
+    <string-array name="year_array">
+   
+    <item>Current Year</item>
+    <item>" "</item>
+    <item>Junior</item>
+    <item>Senior</item>
+    <item>Graduate Student</item>
+    
+    
+    </string-array>
+    
+     <string name="contact_prompt">Select Preferred Contact</string>
+    
+    <string-array name="contact_array">
+    <item>Preferred method of contact</item>
+    <item>Email</item>
+    <item>Text</item>
+    <item>Both</item>
+    </string-array>
+    
+     <string name="tshirt_prompt">Select T-shirt Size</string>
+    
+    <string-array name="tshirt_array">
+    <item>T-Shirt Size</item>
+    <item>Small</item>
+    <item>Medium</item>
+    <item>Large</item>
+    <item>X-Large</item>
+    </string-array>
+    
+    <string name="MobileProvider_prompt">Select Mobile Provider</string>
+    <string-array name="MobileProvider_array">
+     <item >Mobile Provider</item>
+     <item >AllTel</item>   
+      <item >AT&amp;T</item>  
+      <item >Boost Mobile</item>
+      <item >Cellular South</item>
+      <item >Cricket</item>
+      <item >Sprint NexTel</item>
+      <item >Sprint PCS</item>
+      <item >T-Mobile</item>
+      <item >Tracfone</item>
+      <item >US Cellular</item>
+      <item >Verizon</item>
+      <item >Virgin Mobile USA</item>
+      <item >C-Spire</item>
+     
+    </string-array>
+    
+    
+    
+    <string name="month_prompt">Select Birth Month</string>
+    
+    <string-array name="month_array">
+    <item>Month</item>
+    <item>January</item>
+    <item>February</item>
+    <item>March</item>
+    <item>April</item>
+    <item>May</item>
+    <item>June</item>
+    <item>July</item>
+    <item>August</item>
+    <item>September</item>
+    <item>October</item>
+    <item>November</item>
+    <item>December</item>
+    </string-array>
+    
+    <string-array name="month_values">
+    <item>Select Month</item>
+    <item>01</item>
+    <item>02</item>
+    <item>03</item>
+    <item>04</item>
+    <item>05</item>
+    <item>06</item>
+    <item>07</item>
+    <item>08</item>
+    <item>09</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    </string-array>
+    
+     <string name="day_prompt">Select Birth Day</string>
+    
+    <string-array name="day_array">
+    <item>Day</item>
+    <item>01</item>
+    <item>02</item>
+    <item>03</item>
+    <item>04</item>
+    <item>05</item>
+    <item>06</item>
+    <item>07</item>
+    <item>08</item>
+    <item>09</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+    <item>18</item>
+    <item>19</item>
+    <item>20</item>
+    <item>21</item>
+    <item>22</item>
+    <item>23</item>
+    <item>24</item>
+    <item>25</item>
+    <item>26</item>
+    <item>27</item>
+    <item>28</item>
+    <item>29</item>
+    <item>30</item>
+    <item>31</item>
+    </string-array>
+    
+    <string name="years_prompt">Select Birth Year</string>
+    
+    <string-array name="years_array">
+    <item>Year</item>
+    <item >1910</item>
+    <item >1911</item>
+    <item >1912</item>
+    <item >1913</item>
+    <item >1914</item>
+    <item >1915</item>
+    <item >1916</item>
+    <item >1917</item>
+    <item >1918</item>
+    <item >1919</item>
+    <item >1920</item>
+    <item >1921</item>
+    <item >1922</item>
+    <item >1923</item>
+    <item >1924</item>
+    <item >1925</item>
+    <item >1926</item>
+    <item >1927</item>
+    <item >1928</item>
+    <item >1929</item>
+    <item >1930</item>
+    <item >1931</item>
+    <item >1932</item>
+    <item >1933</item>
+    <item >1934</item>
+    <item >1935</item>
+    <item >1936</item>
+    <item >1937</item>
+    <item >1938</item>
+    <item >1939</item>
+    <item >1940</item>
+    <item >1941</item>
+    <item >1942</item>
+    <item >1943</item>
+    <item >1944</item>
+    <item >1945</item>
+    <item >1946</item>
+    <item >1947</item>
+    <item >1948</item>
+    <item >1949</item>
+    <item >1950</item>
+    <item >1951</item>
+    <item >1952</item>
+    <item >1953</item>
+    <item >1954</item>
+    <item >1955</item>
+    <item >1956</item>
+    <item >1957</item>
+    <item >1958</item>
+    <item >1959</item>
+    <item>1960</item>
+    <item>1961</item>
+    <item>1962</item>
+    <item>1963</item>
+    <item>1964</item>
+    <item>1965</item>
+    <item>1966</item>
+    <item>1967</item>
+    <item>1968</item>
+    <item>1969</item>
+    <item>1970</item>
+    <item>1971</item>
+    <item>1972</item>
+    <item>1973</item>
+    <item>1974</item>
+    <item>1975</item>
+    <item>1976</item>
+    <item>1977</item>
+    <item>1978</item>
+    <item>1979</item>
+    <item>1980</item>
+    <item>1981</item>
+    <item>1982</item>
+    <item>1983</item>
+    <item>1984</item>
+    <item>1985</item>
+    <item>1986</item>
+    <item>1987</item>
+    <item>1988</item>
+    <item>1989</item>
+    <item>1990</item>
+    <item>1991</item>
+    <item>1992</item>
+    <item>1993</item>
+    <item>1994</item>
+    <item>1995</item>
+    <item>1996</item>
+    <item>1997</item>
+    <item>1998</item>
+    <item>1999</item>
+    <item>2000</item>
+    <item>2001</item>
+    <item>2002</item>
+    <item>2003</item>
+    <item>2004</item>
+    <item>2005</item>
+    </string-array>
+    
+    <string name="sport_prompt">Select SportType</string>
+    
+    <string-array name="sport_values">
+    <item >View All Sports</item>
+    <item>Baseball</item>
+    <item>Men"'s" Basketball</item>
+    <item>Women"'s" Basketball</item>
+    <item>Football</item>
+    <item>Men"'s" Golf</item>
+    <item>Women"'s" Golf</item>
+    <item>Rifle</item>
+    <item>Soccer</item>
+    <item>Softball</item>
+    <item>Men"'s" Tennis</item>
+    <item>Women"'s" Tennis</item>
+      <item>Track and Field</item>  
+      <item>Cross Country</item>
+      
+      <item>Volleyball</item>
+   
+ </string-array>
+    
+</resources>
+
+

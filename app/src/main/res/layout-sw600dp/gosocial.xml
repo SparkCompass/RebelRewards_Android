@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+  	android:layout_height="match_parent"
+  	  android:background="@drawable/theme1">
+	
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="fill_parent"
+	  
+	  android:paddingLeft="10dip"
+	  >
+
+		<TextView
+		    style="@style/headingStyles"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="220dp"
+		    android:layout_gravity="center"
+		    android:text="GO SOCIAL" />
+	  
+	  <LinearLayout 
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="30dip"
+	  android:layout_marginLeft="50dip"
+	  >
+	  <ImageView
+	   android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	 android:src="@drawable/facebook"
+	   />
+	   <LinearLayout 
+	    android:layout_width="fill_parent"
+	  android:layout_height="50dip"
+	    android:orientation="vertical"
+	  android:layout_marginLeft="5dip"
+	  >
+	  <TextView 
+	
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Connect with us on Facebook"
+	  style="@style/subheadingStyles"/>
+	  
+	   <TextView 
+	   android:id="@+id/lnkFacebook"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:autoLink="web"
+	  android:text="facebook.com/RebelRewards"
+	  style="@style/linkStyles"/>
+	  
+	  </LinearLayout>
+	  </LinearLayout>
+	    
+	    
+	    <LinearLayout 
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="20dip"
+	  android:layout_marginLeft="50dip"
+	  >
+	  <ImageView
+	   android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	android:src="@drawable/twit_icon"
+	   />
+	   <LinearLayout 
+	    android:layout_width="fill_parent"
+	  android:layout_height="50dip"
+	    android:orientation="vertical"
+	  android:layout_marginLeft="5dip"
+	  >
+	  <TextView 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="Follow us on Twitter"
+	  style="@style/subheadingStyles"/>
+	  
+	   <TextView 
+	   android:id="@+id/lnkTwitter"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:autoLink="web"
+	  android:text="twitter.com/RebelRewards"
+	  style="@style/linkStyles"/>
+	  
+	  </LinearLayout>
+	  </LinearLayout>
+	  
+	  
+	  <LinearLayout 
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="20dip"
+	  android:layout_marginLeft="50dip"
+	  >
+	  <ImageView
+	   android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	android:src="@drawable/yt_icon"
+	   />
+	   <LinearLayout 
+	    android:layout_width="fill_parent"
+	  android:layout_height="50dip"
+	    android:orientation="vertical"
+	  android:layout_marginLeft="5dip"
+	  >
+	  <TextView 
+	   android:id="@+id/lnkYoutube"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="@string/lnkYouTube"
+	  style="@style/subheadingStyles"
+	  />
+	  </LinearLayout>
+	  
+	  </LinearLayout>
+	  
+	  <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRewrdHistory"
+        android:gravity="center"
+        android:paddingTop="30dp">
+       <ImageView
+        android:id="@+id/imgAddGosocial"
+        android:layout_width="360dip"
+        android:layout_height="80dip"
+        android:src="@drawable/lastone"
+       
+        /></TableRow>
+	  
+	   <LinearLayout 
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_marginTop="5dip"
+	  android:visibility="gone"
+	  >
+	  <ImageView
+	   android:src="@drawable/foursquare_logo" android:layout_width="110dp" android:layout_height="25dp"/>
+	   
+	  <TextView 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:autoLink="web"
+	  android:text="@string/lnkfoursquare"
+	  style="@style/subheadingStyles"/>
+	  
+	  </LinearLayout>
+	  
+	  <!--  <LinearLayout 
+	  android:orientation="vertical"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="center_horizontal"
+	  >
+	   <TextView 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="~ Share Online ~"
+	  android:layout_marginTop="5dip"
+	  android:layout_gravity="center_horizontal"
+	  style="@style/sharingTextStyles"/>
+	  
+	  <LinearLayout 
+	   android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:layout_gravity="center_horizontal">
+	   <ImageView
+	    android:id="@+id/googleimg"   
+	    android:src="@drawable/google_icon" 
+	    android:layout_width="fill_parent" 
+	    
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_marginTop="5dip"
+	    android:layout_marginLeft="5dip"
+	   />
+	    <ImageView
+	    android:id="@+id/msnimg"    
+	   android:src="@drawable/msn_icon" 
+	   android:layout_width="wrap_content" 
+	   
+	   android:layout_height="fill_parent"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_marginTop="5dip"
+	   android:layout_marginLeft="5dip"/>
+	    <ImageView
+	    android:id="@+id/yahooimg"    
+	   android:src="@drawable/yahoo_icon" 
+	   android:layout_width="wrap_content" 
+	   
+	   android:layout_height="fill_parent"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_marginTop="5dip"
+	   android:layout_marginLeft="5dip"/>
+	    <ImageView
+	   android:id="@+id/redditimg"     
+	   android:src="@drawable/reddit_icon" 
+	   android:layout_width="wrap_content" 
+	    
+	   android:layout_height="fill_parent"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_marginTop="5dip"
+	   android:layout_marginLeft="5dip"/>
+	    <ImageView
+	   android:id="@+id/squidooimg"     
+	   android:src="@drawable/squidoo_icon" 
+	   android:layout_width="22dp" 
+	    
+	   android:layout_height="30dp"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_marginTop="1dip"
+	   android:layout_marginLeft="5dip"/>
+	  </LinearLayout>
+	     <TextView 
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  android:text="~ or send an email ~"
+	  android:layout_marginTop="1dip"
+	   android:layout_gravity="center_horizontal"
+	  style="@style/sharingTextStyles"/>
+	  
+	    <ImageView
+	   android:src="@drawable/mail_icon" 
+	   android:layout_width="fill_parent" 
+	    
+	   android:layout_height="fill_parent"
+	   android:layout_gravity="center_horizontal"
+	   android:layout_marginTop="1dip"/>
+	  
+	  </LinearLayout>-->-->
+	  
+	  
+	  
+	</LinearLayout> 
+
+</ScrollView>

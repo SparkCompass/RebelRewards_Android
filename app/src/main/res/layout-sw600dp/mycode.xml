@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingTop="180dp"
+  android:background="@drawable/theme1" >
+   
+   
+	 <ScrollView  
+				  android:layout_width="match_parent"
+				  android:layout_height="fill_parent">
+
+				  <LinearLayout
+				      android:layout_width="match_parent"
+				      android:layout_height="fill_parent"
+				      android:orientation="vertical"
+				      android:padding="4dp" >
+
+				      <TextView
+				          style="@style/headingStyles"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center"
+				          android:text="EARN REWARDS" 
+				          android:textSize="32sp"/>
+
+				      <LinearLayout
+				          android:layout_width="match_parent"
+				          android:layout_height="wrap_content"
+				          android:layout_marginTop="20dp"
+				          android:layout_weight="0.15"
+				          android:background="@color/WhiteColor"
+				          android:orientation="vertical" >
+
+				          <TextView
+				              android:id="@+id/txtMcBarcode"
+				              style="@style/barcodeStyles"
+				              android:layout_width="wrap_content"
+				              android:layout_height="wrap_content"
+				              android:layout_gravity="center_horizontal"
+				              android:layout_marginLeft="-17dp"
+				              android:layout_marginTop="6dip" />
+				      </LinearLayout>
+
+				      <TextView
+				          style="@style/textViewStyles"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center_horizontal"
+				          android:layout_marginBottom="4dp"
+				          android:paddingTop="10dp"   android:textSize="28sp"
+				          android:text="GET CREDIT FOR ATTENDING AN EVENT" />
+
+				      <View
+				          android:layout_width="wrap_content"
+				          android:layout_height="3dp"
+				          android:layout_marginLeft="35dp"
+				          android:layout_marginRight="35dp"
+				          android:background="#ffffff" />
+
+				      <TextView
+				          android:id="@+id/txtMcName"
+				          style="@style/textViewStyles"   android:textSize="24sp"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center_horizontal"
+				          android:layout_marginTop="10dp" />
+
+				      <TextView
+				          android:id="@+id/txtMcPoints"   android:textSize="24sp"
+				          style="@style/textViewStyles"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center_horizontal"
+				          android:layout_marginTop="10dp" />
+
+				      <TextView
+				          android:id="@+id/txtMcUserId"  android:textSize="24sp"
+				          style="@style/textViewStyles"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center_horizontal"
+				          android:layout_marginTop="10dp" />
+
+				      <TextView
+				          android:id="@+id/lnkMcMyHistory"
+				          style="@style/linkStyles"
+				          android:layout_width="wrap_content"
+				          android:layout_height="wrap_content"
+				          android:layout_gravity="center"
+				          android:layout_marginTop="10dp"
+				          android:layout_weight="0"
+				          android:paddingBottom="15dp"   android:textSize="28sp"
+				          android:paddingTop="15dp"
+				          android:text="@string/lnkViewMyhistory" />
+				      
+				      
+				      
+				     <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRewrdHistory"
+        android:gravity="center"
+        android:paddingTop="20dp">
+       <ImageView
+        android:id="@+id/imgAddMycode"
+        android:layout_width="350dip"
+        android:layout_height="100dip"
+        android:src="@drawable/lastone"
+       /></TableRow> 
+				  </LinearLayout>
+ 
+					</ScrollView> 
+</LinearLayout>

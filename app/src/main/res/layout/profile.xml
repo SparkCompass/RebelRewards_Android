@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/theme1"
+     >
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="5dp">
+     <Button
+        android:id="@+id/btnEdit"
+        style="@style/buttonText"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        
+        android:background="@drawable/btn_blackbg"
+        android:text="Edit" />
+    
+    </TableRow>
+    
+    <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+     <TextView
+        android:id="@+id/txtHProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="PROFILE"
+        style="@style/headingStyles" />
+    
+    </TableRow>
+    
+    <ScrollView  android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+       >
+        
+       <LinearLayout android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           
+         <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="10dp">
+           
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Points:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPPoints"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           <TextView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tier:"
+                style="@style/labelViewStyles"
+                android:layout_marginLeft="90dp"/>
+           
+           <TextView android:id="@+id/txtPTier"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           
+       </TableRow>    
+         
+           
+         
+       <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Name:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPName"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           
+           
+       </TableRow>    
+           
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="UserId:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPUserId"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Email:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPEmail"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Password:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPPassword"
+                style="@style/textViewStyles"  android:password="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Cell"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPCell"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Role:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPRole"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Device:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPDevice"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Birthday:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPBirthdy"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Gender:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPGender"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Preferred Contact:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPPrfdContact"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+                android:layout_gravity="center"/>
+           </TableRow>
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="T-Shirt Size:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPTShirtSize"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+           </TableRow>
+           
+           
+           
+           <TableRow android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="30dp"
+           android:layout_marginTop="5dp">
+           
+           <TextView android:layout_width="140dp"
+               android:layout_height="wrap_content"
+               android:text="Mobile Provider:"
+                style="@style/labelViewStyles"/>
+           
+           <TextView android:id="@+id/txtPMobileProvider"
+                style="@style/textViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:layout_gravity="center"/>
+           </TableRow>
+           
+           
+           
+           
+           
+           
+       </LinearLayout> 
+        
+    
+        
+    </ScrollView>
+    
+    <TableRow android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:id="@+id/tableRewrdHistory"
+                android:layout_below="@+id/tableMprovider"
+                 android:paddingTop="10dp" 
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:paddingLeft="20dp">
+             <TextView
+                android:id="@+id/txtViewMyHistory"
+                style="@style/specialTextViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View My History"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtViewMyrewards"
+                style="@style/specialTextViewStyles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:text="View My Rewards"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+               />
+            
+            </TableRow>
+           
+           <TableRow android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tableRewrdHistory"
+        android:gravity="center"
+        android:paddingTop="3dp">
+       <ImageView
+        android:id="@+id/imgAddProfile"
+        android:layout_width="220dip"
+        android:layout_height="45dip"
+        android:src="@drawable/lastone"
+       /></TableRow>
+    
+
+</LinearLayout>
